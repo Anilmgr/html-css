@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Simple Web Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Simple line icon -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- custom css -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+
+		<header>
+			<nav>
+				<ul class="nav-item">
+					<li class="nav-link">
+						<a href="#">home</a>
+					</li class="nav-link">
+					<li class="nav-link dropdown">
+						<a href="#service-block">services <span class="icon"><i class="icon-arrow-left"></i></span></a>
+						<ul class="dropdown-content">
+							<li class="nav-link"><a href="#">Service 1</a></li>
+							<li class="nav-link"><a href="#">Service 2</a></li>
+						</ul>
+					</li>
+					<li class="nav-link">
+						<a href="#about-block">about us</a>
+					</li>
+					<li class="nav-link">
+						<a href="#client-block">Client</a>
+					</li>
+					<li class="nav-link">
+						<a href="#contact-block">contact us</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="hero-block">
+				<div class="bg-img">
+					<div class="overlay"></div>
+				</div>
+				<div class="intro">
+					<h1>Simple Web Page</h1>
+					<p>Building Simple Web Page With HTML5 And CSS3</p>
+					<button class="access-btn">Click For Free Access</button>
+				</div>
+			</section>
+
+			<section id="service-block">
+				<div class="services">
+					<div class="service-item">
+						<div class="service-head">
+							<i class="icon-speedometer"></i>
+							<h1>Time</h1>
+						</div>
+						<div class="service-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin consectetur odio, a tempus tortor lacinia non. Quisque semper ipsum tincidunt tincidunt bibendum. Praesent mollis dolor id turpis iaculis ultrices. Nunc ut felis sit amet arcu vehicula ultricies. Sed efficitur cursus maximus. Nullam vel purus placerat, commodo orci vel, vestibulum justo. Duis quis urna auctor, ultricies massa eu, molestie purus.</p>
+						</div>
+					</div>
+					<div class="service-item">
+						<div class="service-head">
+							<i class="icon-wallet"></i>
+							<h1>Value</h1>
+						</div>
+						<div class="service-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin consectetur odio, a tempus tortor lacinia non. Quisque semper ipsum tincidunt tincidunt bibendum. Praesent mollis dolor id turpis iaculis ultrices. Nunc ut felis sit amet arcu vehicula ultricies. Sed efficitur cursus maximus. Nullam vel purus placerat, commodo orci vel, vestibulum justo. Duis quis urna auctor, ultricies massa eu, molestie purus.</p>
+						</div>
+					</div>
+					<div class="service-item">
+						<div class="service-head">
+							<i class="icon-pie-chart"></i>
+							<h1>Quality</h1>
+						</div>
+						<div class="service-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin consectetur odio, a tempus tortor lacinia non. Quisque semper ipsum tincidunt tincidunt bibendum. Praesent mollis dolor id turpis iaculis ultrices. Nunc ut felis sit amet arcu vehicula ultricies. Sed efficitur cursus maximus. Nullam vel purus placerat, commodo orci vel, vestibulum justo. Duis quis urna auctor, ultricies massa eu, molestie purus.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="about-block">
+				<div class="about-us">
+					<div class="about-img">
+						<img src="team.jpg">
+					</div>
+					<div class="about-content">
+						<h2>About us <span class="h-bar"></span></h2>
+						<h1>Who are we?</h1>
+						<p>
+							Etiam eget massa eget arcu luctus scelerisque. Proin ipsum massa, imperdiet non est vel, rhoncus gravida augue. Praesent vitae accumsan arcu. Etiam vitae nisl faucibus, dapibus sapien quis, iaculis purus. Nulla pharetra elit sed accumsan finibus. Praesent imperdiet pretium commodo. Etiam vitae eleifend leo. Suspendisse ac eleifend purus, in gravida massa. Cras quis porta elit.
+						</p>
+						<p>
+							Suspendisse vestibulum libero at risus ultricies, ac bibendum nisi suscipit. Sed eget nulla placerat, interdum urna quis, volutpat nisl. In hac habitasse platea dictumst. Ut sed ultrices tortor. Maecenas elit neque, viverra in massa vitae, scelerisque pretium urna. Aliquam ex urna, venenatis in molestie in, venenatis vel nulla. Ut porta cursus metus, a cursus tellus auctor a.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="client-block">
+				<h1>Our Clients</h1>
+				<div class="clients">
+					<div class="client-item">
+						<i class="icon-social-skype"></i>
+					</div>	
+					<div class="client-item">
+						<i class="icon-paypal"></i>
+					</div>	
+					<div class="client-item">
+						<i class="icon-social-github"></i>
+					</div>	
+					<div class="client-item">
+						<i class="icon-social-dropbox"></i>
+					</div>	
+				</div>
+			</section>
+
+			<section id="contact-block">
+				<div class="contact-head">
+					<h2>Contact us <span class="h-bar"></span></h2>
+					<h1>Feel free to contact us!</h1>
+				</div>
+				<div class="contacts">
+					<div class="contact-info">
+						<div class="contact-address">
+							<i class="icon-map"></i>
+							<h3>Address</h3>
+							<p>Butwal-8, Rupandehi, NP</p>
+						</div>
+						<div class="contact-email">
+							<i class="icon-envelope"></i>
+							<h3>Email</h3>
+							<p>anilcodes60@gmail.com</p>
+						</div>
+						<div class="contact-phone">
+							<i class="icon-phone"></i>
+							<h3>Phone</h3>
+							<p>(+977) 9812345678</p>
+						</div>
+					</div>
+					<div class="contact-form">
+						<form class="contactForm">
+							<div class="f-group">
+								<label>Email:</label>
+								<input type="email" name="email" placeholder="Enter your email">
+							</div>
+
+							<div class="f-group">
+								<label>Subject:</label>
+								<input type="text" name="subject" placeholder="Enter subject">
+							</div>
+							<div class="f-group">
+								<label>Message:</label>
+								<textarea rows="8" placeholder="Enter message"></textarea>
+							</div>
+							 <button class="custom-btn">Submit</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="foot-text">
+				<p>Copyright &copy; 2021. All right reserved </p>
+			</div>
+		</footer>
+
+	</body>
+</html>
